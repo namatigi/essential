@@ -18,4 +18,11 @@ echo $array2[3][0]."<br/>";
 
 $array2[3]="cat";
 
-echo $array2[3];
+echo $array2[3]."<br/>";
+
+$array3 = array("first_name"=>"Kelvin","last_name"=>"Skoglund");
+
+echo $array3["first_name"]. " ". $array3["last_name"]."<br/>";
+
+
+echo  print_r($array3)."<br/>";
